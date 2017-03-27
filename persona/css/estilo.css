@@ -94,20 +94,15 @@ article
 
 	#columna1
 	{
-	background-color: #82c3a6;
+	background-color: #d5c75f;
 	width: 100%;
-	margin: 0 auto;
 	}
 	#columna2
 	{
 	background-color: #d5c75f;
-	width: 50%;
+	width: 100%;
 	}
-	#columna3
-	{
-	background-color: #d5c75f;
-	width: 50%;
-	}
+
 
 	footer DIV{
 		width: 25%;
@@ -252,13 +247,15 @@ article
 }
 
 @media screen and (max-width: 480px){
-
-#wrapper
+	#img1{
+		width: 310%;
+		float: right;
+	}
+	#wrapper
 	{
 		width: 100%;
 		margin: 0 auto;
 	}
-
 	#columna1
 	{
 	height: 100%;
@@ -267,11 +264,6 @@ article
 	{
 	width: 100%;
 	}
-	#columna3
-	{
-	width: 100%;
-	}
-
 	header
 	{
 	width:100%;
@@ -312,45 +304,6 @@ footer{
 	text-align: center;
 }
 
-#central{
-	width: 100%;
-}
-#persona{
-	width: 100%;
-	margin-left: -5%;
-	box-shadow: 4px 8px black;
-	transition: 0.5s ease;
- 	-moz-transition: 0.5s ease; /* Firefox */
- 	-webkit-transition: 0.5s ease; /* Chrome - Safari */
- 	-o-transition: 0.5s ease; /* Opera */
-}
-
-#persona:hover{
-	box-shadow: 4px 8px #82c3a6;
-	transform : translateX(20px) translateY(-5px);
-	-moz-transform : translateX(20px) translateY(-5px); /* Firefox */
-	-webkit-transform : translateX(20px) translateY(-5px); /* Chrome - Safari */
-	-o-transform : translateX(20px) translateY(-5px); /* Opera */
-}
-
-#paisaje{
-	width: 100%;
-	margin-right: -5%;
-	box-shadow: 4px 8px black;
-	transition: 0.5s ease;
- 	-moz-transition: 0.5s ease; /* Firefox */
- 	-webkit-transition: 0.5s ease; /* Chrome - Safari */
- 	-o-transition: 0.5s ease; /* Opera */
-}
-
-#paisaje:hover{
-	box-shadow: 4px 8px #82c3a6;
-	transform : rotate(10deg);
-	-moz-transform : rotate(10deg); /* Firefox */
-	-webkit-transform : rotate(10deg); /* Chrome - Safari */
-	-o-transform : rotate(10deg); /* Opera */
-}
-
 footer div img{
 	width: 10%;
 }
@@ -359,5 +312,25 @@ footer div img{
 	text-decoration: none;
 }
 #redes img{
-	width: 5%;
+	width: 10%;
+}
+
+#columna1 img {
+	width: 30%;
+	float: right;
+	padding: 1%;
+}
+#columna2 img {
+	width: 30%;
+	float: right;
+	padding: 1%;
+}
+#blur{
+filter: blur(10px);
+}
+#gris{
+	filter: grayscale(100%);
+}
+#sepia{
+	filter: sepia(90%);
 }
